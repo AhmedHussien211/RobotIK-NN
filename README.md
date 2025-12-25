@@ -1,1 +1,2 @@
 "# RobotIK-NN" 
+A neural inverse kinematics solver for 6‑DOF robotic arms, powered by TensorFlow and integrated with a Tkinter GUI. This project predicts joint angles from end‑effector positions and orientations (X, Y, Z, Roll, Pitch, Yaw) using a trained deep learning model. Includes real‑time slider and entry controls, live updates, and degree‑based visualization for intuitive testing and experimentation.
