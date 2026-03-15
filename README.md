@@ -17,9 +17,9 @@ Neural Network model for Inverse Kinematics prediction
 
 * Predicts joint angles from:
 
-** Position: X, Y, Z
+    Position: X, Y, Z
 
-** Orientation: Roll, Pitch, Yaw
+    Orientation: Roll, Pitch, Yaw
 
 * Interactive Tkinter GUI
 
@@ -47,12 +47,14 @@ Traditional inverse kinematics methods rely on:
 
 The model learns the mapping:
 
-## (𝑋,𝑌,𝑍,𝑅𝑜𝑙𝑙,𝑃𝑖𝑡𝑐ℎ,𝑌𝑎𝑤)→(𝐽𝑜𝑖𝑛𝑡1,𝐽𝑜𝑖𝑛𝑡2,...,𝐽𝑜𝑖𝑛𝑡6)(X,Y,Z,Roll,Pitch,Yaw)→(Joint1,Joint2,...,Joint6)
+## (𝑋,𝑌,𝑍,𝑅𝑜𝑙𝑙,𝑃𝑖𝑡𝑐ℎ,𝑌𝑎𝑤)→(𝐽𝑜𝑖𝑛𝑡1,𝐽𝑜𝑖𝑛𝑡2,...,𝐽𝑜𝑖𝑛𝑡6)
 
 This allows the robot to instantly predict joint configurations for a desired end-effector pose.
 
 ## 👨‍💻 Author
 
 Ahmed Hussien
+
 AI & Computer Vision Enthusiast
+
 Engineering Student
